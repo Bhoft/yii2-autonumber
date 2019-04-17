@@ -1,11 +1,15 @@
 {
-    "name": "mdmsoft/yii2-autonumber",
+    "name": "bhoft/yii2-autonumber",
     "description": "Auto number extension for the Yii framework",
     "keywords": ["yii2", " extension", " autonumber", " behavior"],
     "license": "BSD-3-Clause",
     "type": "yii2-extension",
     "license": "BSD-3-Clause",
     "authors": [
+        {
+            "name": "B Hoft",
+            "email": "hoft@eurescom.eu"
+        },
         {
             "name": "Misbahul D Munir",
             "email": "misbahuldmunir@gmail.com"
@@ -16,11 +20,11 @@
     },
     "autoload": {
         "psr-4": {
-            "mdm\\autonumber\\": ""
+            "bhoft\\yii2\\autonumber\\": ""
         }
     },
     "extra": {
-        "bootstrap": "mdm\\autonumber\\Bootstrap",
+        "bootstrap": "bhoft\\yii2\\autonumber\\Bootstrap",
         "branch-alias": {
             "dev-master": "1.x-dev"
         }

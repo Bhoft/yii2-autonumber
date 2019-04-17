@@ -6,6 +6,12 @@ document number.
 
 This extension forked from [mdm/yii2-autonumber](https://github.com/mdmsoft/yii2-autonumber) and extended with some modifications.
 
+modifications:
+  `targetClass` attribute so the extension could also be used with different extended classes e.g. MyModel, MyModelForm and still get the same autonumber
+  `group` could be now an model attribute or function or class function
+  `format` set the format of the autonumber 
+  `db` to set a different database
+
 Installation
 ------------
 
